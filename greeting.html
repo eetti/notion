@@ -23,7 +23,7 @@ body{
     </style>
 </head>
 <body>
-    <div id="lbl"></div>
+    <a id="linky" href=""<div id="lbl"></div> </a>
 </body>
 
 <script>
@@ -58,5 +58,6 @@ body{
 
     document.getElementById('lbl').innerHTML =
         greet+=`<div id="date"> It's ${date} and site ${site}</div>`;
+    document.getElementById("linky").href = `http://www.${site}`;
 </script> 
 </html>
